@@ -1,0 +1,85 @@
+.study{
+    margin-top: 7vh;
+    height: 80vh;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+}
+
+.study-top{
+    height: 15%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid;
+    justify-content: center;
+    align-items: center;
+}
+
+.study-top-left{
+    background-color: black;
+    width: 1vw;
+    height: 60%;
+}
+
+.study-top-right{
+    width: 94vw;
+    padding-left: 1vw;
+    font-family: 'verdana';
+    text-align: right;
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+.study-bottom{
+    height: 85%;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.study-left{
+    width: 30%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.study-left img{
+    max-height: 90%;
+    max-width: 90%;
+}
+
+.study-right{
+    width: 70%;
+    height: 100%;
+    background-color: blue;
+    display: flex;
+    font-size: 1.5em;
+    font-weight: 500;
+    justify-content: cent;
+    align-items: flex-start;
+}
+
+.study-right p{
+    padding: 5%;
+}
+.flipcard-container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.react-multi-carousel-list{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.react-multi-carousel-track{
+    height: 100%;
+}

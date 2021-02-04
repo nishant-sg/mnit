@@ -1,0 +1,66 @@
+.MBD{
+    margin-top: 7vh;
+    height: 83vh;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+}
+
+.mbd-top{
+    height: 15%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.mbd-top-left{
+    background-color: black;
+    width: 1vw;
+    height: 60%;
+}
+
+.mbd-top-right{
+    width: 94vw;
+    padding-left: 1vw;
+    font-family: 'verdana';
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+.mbd-bottom{
+    height: 85%;
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+}
+
+.mbd-left{
+    width: 30%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mbd-left img{
+    max-height: 90%;
+    max-width: 90%;
+}
+
+.mbd-right{
+    width: 70%;
+    height: 100%;
+    background-color: blue;
+    display: flex;
+    font-size: 1.5em;
+    font-weight: 500;
+    justify-content: cent;
+    align-items: flex-start;
+}
+
+.mbd-right p{
+    padding: 5%;
+}
